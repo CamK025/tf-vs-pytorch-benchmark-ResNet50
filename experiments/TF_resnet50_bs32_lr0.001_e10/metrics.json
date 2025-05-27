@@ -1,0 +1,7 @@
+{
+  "training_time_seconds": 1472.1448023319244,
+  "memory_usage_mb": 717.62890625,
+  "inference_latency_seconds": 35.41320204734802,
+  "val_loss": 1.5743149518966675,
+  "val_accuracy": 0.6372548937797546
+}
