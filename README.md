@@ -87,11 +87,21 @@
 
 ## 3. 差异分析
 
+
 <div align="center">
-<img src="docs/assets/framework_comparison.png" width="100%" alt="Framework Comparison">
+  <img src="docs/VA.png" width="45%" alt="Vertex AI Setup">
+  <img src="docs/VL.png" width="45%" alt="Validation Loss">
 </div>
 
-> **Figure 1**：TensorFlow 和 PyTorch 框架在不同指标下的性能对比。红色表示当前指标下更优模型，蓝色表示相对较差模型。
+<div align="center">
+  <img src="docs/MB.png" width="30%" alt="Inference Latency">
+  <img src="docs/TT.png" width="30%" alt="Training Time">
+  <img src="docs/IL.png" width="30%" alt="Memory Usage">
+</div>
+
+<p align="center">
+  <b>Figure 1:</b> TensorFlow 和 PyTorch 框架在不同指标下的性能对比。红色表示当前指标下更优模型，蓝色表示相对较差模型。
+</p>
 
 | 指标             | 优胜者      | 说明 |
 |------------------|-------------|------|
@@ -132,11 +142,10 @@
 ### 任务 1.1：Vertex AI 环境配置与使用体验
 
 <div align="center">
-  <img src="docs/assets/env_tensorflow.png" width="48%" alt="TF Setup">
-  <img src="docs/assets/env_pytorch.png" width="48%" alt="PyTorch Setup">
+  <img src="docs/TF.jpg" width="48%" alt="TF Setup">
+  <img src="docs/PT.png" width="48%" alt="PyTorch Setup">
+  <b>Figure 2:</b> TensorFlow（左）和 PyTorch（右）环境配置成功截图
 </div>
-
-> **Figure 2**：TensorFlow（左）和 PyTorch（右）环境配置成功截图
 
 #### 使用体验笔记：
 
@@ -153,7 +162,10 @@ Vertex AI 作为Google Cloud里的产品之一，在学习使用 Vertex AI 的�
 
 ### 任务 1.2：tf.data 数据管道优化策略
 
-> **Figure 3**：数据预处理流程
+<div align="center">
+  <img src="docs/Pre-pro.png" width="60%" alt="Figure 2 - Preprocessing Pipeline"><br>
+  <b>Figure 3:</b> 图像数据预处理流程
+</div>
 
 - 加载方式：`tfds.load("oxford_flowers102")`
 - 主要操作：
